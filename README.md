@@ -26,11 +26,17 @@ The Cage is an autonomous aerial drone charger, primarily designed for Parrot Be
 
 ## Installation
 1) Install ROS Indigo
+
 2) Copy thecage files to ~/aerial
+
 3) Modify autostart to execute runme.sh
+
     - Autostart is at ~/.config/lxsession/LXDE-pi/autostart for Raspbian following on Raspberry Pi 2
+    
     - Read runme.sh for more details
+
 4) Make sure all files in ~/aerial have at least READ and EXECUTE permissions for the user used for logging in
+
     - A good and secure permission would be 750 with CHMOD
     
 ## Credits
@@ -44,7 +50,7 @@ Boston University Robotics Lab was the first client that made this entire projec
 
 ## License
 MIT License
-In short: you can reuse it for any purpose without specifically asking for permission. All we ask is that credit be given where due. Please refer to LICENSE.MD if unsure.
+In short: you can reuse it for any purpose without specifically asking for permission. All we ask is that credit be given where due. Please refer to LICENSE file if unsure.
 
 **Thank you!**
 
